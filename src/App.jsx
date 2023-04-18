@@ -94,7 +94,7 @@ function App () {
       )}
 
       <div className="content">
-          <input className="cityInput" placeholder="Name of City" onChange={(e)=> {setCity(e.target.value)}} />
+          <input className="cityInput" placeholder="Name of City..." onChange={(e)=> {setCity(e.target.value)}} />
           <button className="btn" type="submit" onClick={getPlace}> <FcSearch /> </button>
       </div>
 
